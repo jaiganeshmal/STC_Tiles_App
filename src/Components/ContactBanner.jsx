@@ -50,7 +50,7 @@ const ContactBanner = () => {
               your project today.
             </p>
 
-            <button className="mt-3 px-10 lg:px-12 py-3 bg-[#392917] text-white font-semibold rounded-full transition duration-300 hover:bg-[#F37E21]">
+            <button className="cursor-pointer mt-3 px-10 lg:px-12 py-3 bg-[#392917] text-white font-semibold rounded-full transition duration-300 hover:bg-[#F37E21]">
               PROJECT
             </button>
           </div>

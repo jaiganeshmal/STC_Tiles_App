@@ -52,7 +52,7 @@ const HeroSlider = () => {
                                     </h1>
 
                                     {/* BUTTON */}
-                                    <button className="px-8 py-3 text-lg md:text-xl bg-[#F37E21] text-white font-semibold rounded-4xl hover:bg-[#392917] duration-500 cursor-pointer">
+                                    <button className="px-8 py-3 cursor-pointer text-lg md:text-xl bg-[#F37E21] text-white font-semibold rounded-4xl hover:bg-[#392917] duration-500 cursor-pointer">
                                         Our Services
                                     </button>
 

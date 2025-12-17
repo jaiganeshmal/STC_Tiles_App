@@ -61,7 +61,7 @@ const ExpertFlooring = () => {
                 We can help you stand out your business
               </p>
 
-              <button className="px-8 py-3 bg-white text-[#392917] font-semibold rounded-full border border-[#392917] hover:bg-[#392917] hover:text-white transition duration-300">
+              <button className="px-8 py-3 cursor-pointer bg-white text-[#392917] font-semibold rounded-full border border-[#392917] hover:bg-[#392917] hover:text-white transition duration-300">
                 Learn More
               </button>
             </div>

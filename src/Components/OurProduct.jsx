@@ -27,7 +27,7 @@ const OurProduct = () => {
 
             {/* BUTTON */}
             <button
-              className="px-10 py-4 bg-[#F37E21] text-white font-semibold rounded-full
+              className="px-10 py-4 cursor-pointer bg-[#F37E21] text-white font-semibold rounded-full
                          transition duration-300 hover:bg-[#392917]"
             >
               OUR PRODUCT

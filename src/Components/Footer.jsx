@@ -28,7 +28,7 @@ const Footer = () => {
                         />
                         <button
                             type="submit"
-                            className="bg-[#F37E21] hover:bg-[#392917] px-8 text-white font-semibold transition"
+                            className="bg-[#F37E21] hover:bg-[#392917] cursor-pointer px-8 text-white font-semibold transition"
                         >
                             →
                         </button>

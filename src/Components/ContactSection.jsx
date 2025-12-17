@@ -72,7 +72,7 @@ const ContactSection = () => {
             <button
               type="submit"
               className="inline-flex items-center justify-center
-                         px-10 py-4 rounded-full
+                         px-10 py-4 cursor-pointer rounded-full
                          bg-[#392917] text-white text-sm font-semibold uppercase
                          hover:bg-[#F37E21] transition duration-300 shadow-lg"
             >

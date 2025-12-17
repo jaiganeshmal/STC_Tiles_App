@@ -6,7 +6,7 @@ const ScrollToTop = () => {
 
   // Check scroll position
   const toggleVisibility = () => {
-    if (window.scrollY > 300) { // 300px scroll ke baad button visible
+    if (window.scrollY > 300) {
       setVisible(true);
     } else {
       setVisible(false);

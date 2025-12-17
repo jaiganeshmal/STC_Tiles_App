@@ -64,10 +64,10 @@ const ProjectCTA = () => {
                         <button
                             onClick={() => setOpen(false)}
                             className="absolute top-4 right-4 z-50
-                         w-10 h-10 rounded-full bg-white/90
+                         w-10 h-10 cursor-pointer rounded-full bg-white/90
                          flex items-center justify-center
                          text-black text-xl font-bold
-                         hover:bg-red-500 hover:text-white transition cursor-pointer"
+                         hover:bg-red-500 hover:text-white transition"
                             aria-label="Close video"
                         >
                             ✕
@@ -77,7 +77,7 @@ const ProjectCTA = () => {
                         <div className="relative w-full pt-[56.25%]">
                             <iframe
                                 className="absolute inset-0 w-full h-full"
-                                src="https://www.youtube.com/embed/VIDEO_ID_HERE?autoplay=1"
+                                src="https://www.youtube.com/embed/_Sl8diqCAFw?si=0TvYBdT0TayaEOPQ"
                                 title="YouTube video"
                                 frameBorder="0"
                                 allow="autoplay; encrypted-media"
