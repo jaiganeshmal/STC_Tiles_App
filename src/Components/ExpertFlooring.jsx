@@ -76,6 +76,7 @@ const ExpertFlooring = () => {
               src={assets.expertImage}
               alt="expert flooring"
               className="w-full h-[480px] sm:h-[500px] md:h-[600px] object-cover rounded-md "
+              loading="lazy"
             />
 
             {/* OVERLAY BOX */}

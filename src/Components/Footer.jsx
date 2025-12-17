@@ -55,7 +55,11 @@ const Footer = () => {
                 {/* COMPANY */}
                 <div>
                     <div className="flex items-end space-x-2 cursor-pointer">
-                        <img src={assets.logo} alt="Logo" className="h-14 md:h-16 object-contain" />
+                        <img src={assets.logo} 
+                        alt="Logo" 
+                        className="h-14 md:h-16 object-contain" 
+                        loading="lazy"
+                        />
                         <div className="flex flex-col">
                             <span className="text-[#F37E21] font-bold text-lg md:text-xl">
                                 Shakeel Trading

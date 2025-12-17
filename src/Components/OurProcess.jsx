@@ -1,34 +1,8 @@
 import React from "react";
-import { assets } from "../assets/global";
+import { steps } from "../assets/global";
 
 const OurProcess = () => {
-  const steps = [
-    {
-      step: "01",
-      title: "Color Board",
-      icon: assets.process1,
-      bg: "bg-[#FBF5E8]",
-    },
-    {
-      step: "02",
-      title: "Dimension",
-      icon: assets.process2,
-      bg: "bg-[#F9EEEE]",
-    },
-    {
-      step: "03",
-      title: "Installation",
-      icon: assets.process3,
-      bg: "bg-[#EEF6FA]",
-    },
-    {
-      step: "04",
-      title: "Finishing",
-      icon: assets.process4,
-      bg: "bg-[#F8F3EA]",
-    },
-  ];
-
+  
   return (
     <section className="w-full bg-white py-10">
       
@@ -69,6 +43,7 @@ const OurProcess = () => {
                   src={item.icon}
                   alt={item.title}
                   className="w-12 h-12 object-contain"
+                  loading="lazy"
                 />
               </div>
 

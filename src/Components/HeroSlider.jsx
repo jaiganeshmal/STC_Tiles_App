@@ -30,6 +30,7 @@ const HeroSlider = () => {
                                 src={img}
                                 alt="slide"
                                 className="w-full h-full object-cover scale-110 animate-zoom"
+                                loading="lazy"
                             />
 
                             {/* DARK OVERLAY */}

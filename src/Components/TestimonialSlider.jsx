@@ -2,37 +2,9 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import { testimonials } from "../assets/global";
 
-const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
-    name: "Mahfuz Rlad",
-    position: "Senior Client",
-    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
-    name: "Tamim Anj",
-    position: "Senior Client",
-    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
-    name: "Sara Huda",
-    position: "Senior Client",
-    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
-    name: "Zain Malik",
-    position: "Senior Client",
-    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
-  },
-];
+
 
 const TestimonialSlider = () => {
   return (
@@ -81,6 +53,7 @@ const TestimonialSlider = () => {
                   src={t.image}
                   alt={t.name}
                   className="w-14 h-14 rounded-full object-cover border-2 border-[#F37E21]"
+                  loading="lazy"
                 />
                 <div>
                   <h4 className="font-bold text-[#392917]">

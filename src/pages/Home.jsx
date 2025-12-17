@@ -16,22 +16,22 @@ const TestimonialSlider = lazy(() => import("../Components/TestimonialSlider"));
 const BlogSection = lazy(() => import("../Components/BlogSection"));
 
 const Home = () => {
-  return (
-    <Suspense fallback={<Loader />}>
-      <HeroCarousel />
-      <ContactBanner />
-      <WhyChooseUs />
-      <ExpertFlooring />
-      <Services />
-      <OurProduct />
-      <OurProcess />
-      <ProjectsSection />
-      <ProjectCTA />
-      <ContactSection />
-      <TestimonialSlider />
-      <BlogSection />
-    </Suspense>
-  );
+    return (
+        <Suspense fallback={<Loader />}>
+            <HeroCarousel />
+            <ContactBanner />
+            <WhyChooseUs />
+            <ExpertFlooring />
+            <Services />
+            <OurProduct />
+            <OurProcess />
+            <ProjectsSection />
+            <ProjectCTA />
+            <ContactSection />
+            <TestimonialSlider />
+            <BlogSection />
+        </Suspense>
+    );
 };
 
 export default Home;

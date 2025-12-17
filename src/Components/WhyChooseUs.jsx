@@ -18,7 +18,8 @@ const WhyChooseUs = () => {
             <img
               src={assets.aboutMain}
               alt="about"
-              className="w-full  object-cover rounded-md"
+              className="w-full object-cover rounded-md"
+              loading="lazy"
             />
 
             {/* SMALL OVERLAY IMAGE */}
@@ -26,6 +27,7 @@ const WhyChooseUs = () => {
               src={assets.aboutSmall}
               alt="overlay"
               className="absolute left-1/2 -bottom-20 -translate-x-1/2 w-64 h-52 object-cover border-8 border-white shadow-lg"
+              loading="lazy"
             />
           </div>
 

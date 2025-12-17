@@ -42,6 +42,7 @@ const OurProduct = () => {
               src={assets.productMain}
               alt="our product"
               className="w-full h-[450px] sm:h-[500px] object-cover rounded-lg"
+              loading="lazy"
             />
 
             {/* SMALL IMAGE */}
@@ -50,6 +51,7 @@ const OurProduct = () => {
               alt="product small"
               className="absolute right-6 -bottom-10 w-70 h-56 object-cover
                          border-8 border-white shadow-xl rounded-md"
+              loading="lazy"
             />
           </div>
 

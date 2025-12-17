@@ -1,27 +1,8 @@
 import React from "react";
-import { assets } from "../assets/global";
+import { assets, services } from "../assets/global";
 
 const Services = () => {
-  const services = [
-    {
-      icon: assets.service1,
-      title: "Carpet Removal",
-      desc:
-        "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen tum nibh, ut fermentum",
-    },
-    {
-      icon: assets.service2,
-      title: "Kitchen Strip Outs",
-      desc:
-        "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen tum nibh, ut fermentum",
-    },
-    {
-      icon: assets.service3,
-      title: "Timber Floor Removal",
-      desc:
-        "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen tum nibh, ut fermentum",
-    },
-  ];
+  
 
   return (
     <section className="w-full bg-white py-10">
@@ -62,6 +43,7 @@ const Services = () => {
                     src={item.icon}
                     alt={item.title}
                     className="w-28 h-28 object-contain"
+                    loading="lazy"
                   />
                 </div>
               </div>

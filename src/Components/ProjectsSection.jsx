@@ -1,28 +1,7 @@
 import React from "react";
-import { assets } from "../assets/global";
+import { projects } from "../assets/global";
 
-const projects = [
-    {
-        title: "Hardwood Flooring",
-        category: "Hardwood",
-        image: assets.project1,
-    },
-    {
-        title: "Carpet Wood Care",
-        category: "Carpet Care",
-        image: assets.project2,
-    },
-    {
-        title: "Wood Flooring",
-        category: "Wood Care",
-        image: assets.project3,
-    },
-    {
-        title: "Tile Flooring",
-        category: "Tile Care",
-        image: assets.project4,
-    },
-];
+
 
 const ProjectsSection = () => {
     return (
@@ -66,6 +45,7 @@ const ProjectsSection = () => {
                                     className="w-full h-56 object-cover
                              transition-transform duration-500
                              group-hover:scale-110"
+                                    loading="lazy"
                                 />
                             </div>
 

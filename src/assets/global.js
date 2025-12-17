@@ -26,3 +26,134 @@ export const assets = {
   blog2 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1765861737/blog2_sxiv4u.jpg',
   blog3 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1765861737/blog3_jcmbba.jpg',
 };
+
+
+// Home Page 
+
+export let navlinks = ["Home", "About", "Services", "Page", "Blog", "Contact"];
+
+export let services = [
+    {
+      icon: assets.service1,
+      title: "Carpet Removal",
+      desc:
+        "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen tum nibh, ut fermentum",
+    },
+    {
+      icon: assets.service2,
+      title: "Kitchen Strip Outs",
+      desc:
+        "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen tum nibh, ut fermentum",
+    },
+    {
+      icon: assets.service3,
+      title: "Timber Floor Removal",
+      desc:
+        "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen tum nibh, ut fermentum",
+    },
+  ];
+
+export let steps = [
+    {
+      step: "01",
+      title: "Color Board",
+      icon: assets.process1,
+      bg: "bg-[#FBF5E8]",
+    },
+    {
+      step: "02",
+      title: "Dimension",
+      icon: assets.process2,
+      bg: "bg-[#F9EEEE]",
+    },
+    {
+      step: "03",
+      title: "Installation",
+      icon: assets.process3,
+      bg: "bg-[#EEF6FA]",
+    },
+    {
+      step: "04",
+      title: "Finishing",
+      icon: assets.process4,
+      bg: "bg-[#F8F3EA]",
+    },
+  ];
+
+export let projects = [
+    {
+        title: "Hardwood Flooring",
+        category: "Hardwood",
+        image: assets.project1,
+    },
+    {
+        title: "Carpet Wood Care",
+        category: "Carpet Care",
+        image: assets.project2,
+    },
+    {
+        title: "Wood Flooring",
+        category: "Wood Care",
+        image: assets.project3,
+    },
+    {
+        title: "Tile Flooring",
+        category: "Tile Care",
+        image: assets.project4,
+    },
+];
+
+export let testimonials = [
+  {
+    quote:
+      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
+    name: "Mahfuz Rlad",
+    position: "Senior Client",
+    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
+    name: "Tamim Anj",
+    position: "Senior Client",
+    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
+    name: "Sara Huda",
+    position: "Senior Client",
+    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet elite send do eiusmod tempor incididunt the labore na aliqua. Ut enim ad minim veniam, nostrud exercitation an.",
+    name: "Zain Malik",
+    position: "Senior Client",
+    image: "https://alori-nextjs.vercel.app/_next/static/media/testimonial-v1-img1.774a6e0f.png",
+  },
+];
+
+export let articles = [
+  {
+    category: "Business",
+    image: assets.blog1 ,
+    title: "How to Remove Common Carpet Stains",
+    date: "October 12, 2022",
+    desc: "One of the most popular and timeless tile choices for kitchens and bathrooms",
+  },
+  {
+    category: "Woodhard",
+    image: assets.blog2 ,
+    title: "Hardwood oak flooring at Simple Flooring",
+    date: "October 12, 2022",
+    desc: "One of the most popular and timeless tile choices for kitchens and bathrooms",
+  },
+  {
+    category: "Flooring",
+    image: assets.blog3 ,
+    title: "Why choose vinyl plank over other flooring types?",
+    date: "October 12, 2022",
+    desc: "One of the most popular and timeless tile choices for kitchens and bathrooms",
+  },
+];

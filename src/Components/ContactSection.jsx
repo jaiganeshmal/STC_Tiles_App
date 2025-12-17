@@ -12,6 +12,7 @@ const ContactSection = () => {
             src={assets.conatct_img}
             alt="Interior Room"
             className="w-full h-full object-cover rounded-xl shadow-xl"
+            loading="lazy"
           />
 
           {/* EXPERIENCE BADGE */}

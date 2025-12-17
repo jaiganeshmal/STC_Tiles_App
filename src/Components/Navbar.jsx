@@ -7,13 +7,11 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
-import { assets } from "../assets/global";
+import { assets, navlinks } from "../assets/global";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  const navlinks = ["Home", "About", "Services", "Page", "Blog", "Contact"];
 
   // Handle scroll event to update background color of navbar
   const handleScroll = () => {
@@ -49,7 +47,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
          {/* LOGO IMAGE + TEXT */}
           <div className="flex items-end space-x-2 cursor-pointer">
-            <img src={assets.logo} alt="Logo" className="h-14 md:h-16 object-contain" />
+            <img src={assets.logo} alt="Logo" className="h-14 md:h-16 object-contain" loading="lazy" />
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg md:text-xl">
                 Shakeel Trading

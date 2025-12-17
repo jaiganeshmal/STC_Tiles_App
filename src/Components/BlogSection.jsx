@@ -1,29 +1,7 @@
 import React from "react";
-import { assets } from "../assets/global";
+import { articles } from "../assets/global";
 
-const articles = [
-  {
-    category: "Business",
-    image: assets.blog1 ,
-    title: "How to Remove Common Carpet Stains",
-    date: "October 12, 2022",
-    desc: "One of the most popular and timeless tile choices for kitchens and bathrooms",
-  },
-  {
-    category: "Woodhard",
-    image: assets.blog2 ,
-    title: "Hardwood oak flooring at Simple Flooring",
-    date: "October 12, 2022",
-    desc: "One of the most popular and timeless tile choices for kitchens and bathrooms",
-  },
-  {
-    category: "Flooring",
-    image: assets.blog3 ,
-    title: "Why choose vinyl plank over other flooring types?",
-    date: "October 12, 2022",
-    desc: "One of the most popular and timeless tile choices for kitchens and bathrooms",
-  },
-];
+
 
 const BlogSection = () => {
   return (
@@ -55,6 +33,7 @@ const BlogSection = () => {
                 alt={item.title}
                 className="w-full h-60 object-cover
                            group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
               />
 
               {/* CATEGORY */}
